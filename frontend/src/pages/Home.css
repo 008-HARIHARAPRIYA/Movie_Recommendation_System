@@ -1,0 +1,96 @@
+/* Home.css */
+
+.home-root {
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px;
+  margin:20px;
+}
+
+.login-container {
+  border-radius: 15px;
+  color: black;
+}
+
+.login-title {
+  font-weight: 700;
+  color: #000;
+}
+
+.login-text {
+  color: #000;
+}
+
+.btn-light {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: black !important;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: black !important;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.trending-movie-image {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+}
+
+.login-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.trending-section {
+  padding: 0 40px;
+}
+
+.trending-section img {
+  border-bottom: 2px solid #ff9800;
+  object-fit:cover;
+}
+
+@media (max-width: 600px) {
+  .trending-section {
+    padding: 0 20px;
+  }
+}
+.about-section {
+  padding-top: 50px;
+  animation: fadeIn 1s ease-in;
+}
+
+.trending-section .MuiPaper-root:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.footer {
+  margin-top: 60px;
+  font-size: 14px;
+}
+.trending-movie-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+

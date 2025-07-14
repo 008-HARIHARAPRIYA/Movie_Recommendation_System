@@ -1,0 +1,55 @@
+/* Page background */
+.listmovie-container {
+    color:white;
+  padding: 30px;
+  min-height: 100vh;
+  background-color: black;
+  background-blend-mode: multiply, multiply;
+}
+
+/* Table styling */
+.movie-table {
+  background-image: linear-gradient(to top, #cd9cf2 0%, #f6f3ff 100%) !important;
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+}
+
+/* Table header row */
+.movie-table thead th {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  background-color: #1976d2;
+}
+
+/* Table body cells */
+.movie-table tbody td {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+
+/* Action buttons */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Dialog styling */
+.movie-dialog .MuiDialog-paper {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+}
+
+/* Buttons spacing */
+.button-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
