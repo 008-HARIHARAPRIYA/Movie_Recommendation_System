@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node backend/server.js",
-    "start": "cross-env NODE_ENV=production node backend/server.js",
+    "start": "NODE_ENV=production node backend/server.js",
     "build": "echo '✅ No build step required'"
   },
   "type": "module",
