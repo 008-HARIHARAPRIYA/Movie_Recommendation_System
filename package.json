@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node backend/server.js",
-    "start": "NODE_ENV=production node backend/server.js",
-    "build": "echo '✅ No build step required'"
+    "start": "node backend/server.js"
   },
   "type": "module",
   "keywords": [],
