@@ -1,1 +1,1 @@
-# Movie_Recommendation_System
+Movie Recommendation system is built with React Js, Node Js, MySQL and additional ui technologies like Tailwind CSS, Material UI, chakra ui...It recommends the top 10 similar movies for the movie searched based on the movie name, genre and director. The admin can add, delete, update and display all the movies in the ui. The Authentication and Authorization mechanism is also added using JSON Web Token and the code is written in MVC Pattern 
